@@ -193,6 +193,8 @@ function App() {
               deleteBtn.style.width = "20px";
               deleteBtn.style.height = "20px";
               deleteBtn.style.fontSize = "14px";
+              deleteBtn.style.lineHeight = "1";
+              deleteBtn.style.padding = "0";
               deleteBtn.style.cursor = "pointer";
               deleteBtn.style.display = "flex";
               deleteBtn.style.alignItems = "center";
@@ -238,7 +240,8 @@ function App() {
               }, 10);
 
               handleContentChange();
-              showNotification("图片已添加", "success");
+              // 移除粘贴图片时的提示
+              // showNotification("图片已添加", "success");
             }
           };
           reader.readAsDataURL(file);
