@@ -1,0 +1,16 @@
+# Node.js
+node_modules/
+npm-debug.log
+.yarn-cache
+
+# Editor settings
+.vscode/*
+!.vscode/settings.json
+
+# OS generated files
+.DS_Store
+
+# Build results
+dist/
+build/
+releases/
